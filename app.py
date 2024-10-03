@@ -2,7 +2,7 @@
 import numpy as np
 from sklearn.metrics import r2_score
 import pandas as pd
-dataset = pd.read_csv("D:\ML\LINEAR REGRESSION\Salary_Data.csv")
+dataset = pd.read_csv("/workspace/cicd/Salary_Data.csv")
 
 X = dataset.iloc[:, :-1].values
 print(X)
